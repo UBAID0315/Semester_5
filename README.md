@@ -29,23 +29,12 @@ This project is an interactive data exploration tool built using **Streamlit** f
 1. **Install Dependencies: Install the required packages by running**:
     ```pip install -r requirements.txt```
 
-    ```If you do not have a requirements.txt, create one with:```
-    ```pandas```
-    ```pyfpgrowth```
-    ```streamlit```
-    ```networkx```
-    ```plotly```
-
-# Usage
-1. **Run the Streamlit App**:
-streamlit run app.py
-2. **Open the Browser:** Once the app is running, navigate to the URL shown in the terminal (usually http://localhost:8501).
-3. Explore the Application: Use the sidebar to adjust the parameters for frequent pattern mining:
-
-o Sample size
-o Minimum support
-o Minimum confidence
-o Number of frequent patterns (top_n)
+    If you do not have a requirements.txt, create one with:
+    pandas
+    pyfpgrowth
+    streamlit
+    networkx
+    plotly
 
 **Choose between the sections for:**
 
@@ -56,44 +45,37 @@ o Rules for a Specific Item
 # Dataset
 ```The dataset must be in CSV format, with a column named Describe that contains lists of food items separated by commas.```
 
-Example Data Format:
-ID	Describe
-1	apple, banana, milk
-2	bread, butter
-3	banana, milk, bread
-...	...
-Ensure that the Describe column contains comma-separated food items.
 
 # Parameters
 
-o Sample Size: Select the number of rows to sample for analysis.
-o Minimum Support: The minimum number of times an itemset must appear to be considered frequent.
-o Minimum Confidence: The minimum confidence level for association rules.
-o Top Patterns: Control how many frequent itemsets are displayed in the results.
+- Sample Size: Select the number of rows to sample for analysis.
+- Minimum Support: The minimum number of times an itemset must appear to be considered frequent.
+- Minimum Confidence: The minimum confidence level for association rules.
+- Top Patterns: Control how many frequent itemsets are displayed in the results.
 
 # Visualizations
-o Frequent Itemsets (Patterns): Displays frequent itemsets and their support counts.
-o Association Rules: Shows relationships between food items based on the specified confidence level.
-o Network Graph: Displays a network graph of food items and their associations. Nodes represent items, and edges represent association rules with confidence values.
+- Frequent Itemsets (Patterns): Displays frequent itemsets and their support counts.
+- Association Rules: Shows relationships between food items based on the specified confidence level.
+- Network Graph: Displays a network graph of food items and their associations. Nodes represent items, and edges represent association rules with confidence values.
 
 # File Structure
 
-├── streamlit_app.py               # Main Streamlit application
-├── requirements.txt      # List of required Python libraries
-├── data  # Dataset file (place in root)
-├── README.md             # Project documentation
-├── code.ipynb
-├── __pycache__
+- ├── streamlit_app.py      # Main Streamlit application
+- ├── requirements.txt      # List of required Python libraries
+- ├── data                  # Dataset file (place in root)
+- ├── README.md             # Project documentation
+- ├── code.ipynb
+- ├── __pycache__
 
 # Dependencies
 
-o Python 3.x
-o pandas: For data manipulation and loading the dataset.
-o pyfpgrowth: For mining frequent patterns using the FP-Growth algorithm.
-o Streamlit: For building the interactive web-based interface.
-o NetworkX: For creating the network graph of associations.
-o Plotly: For visualizing the network graph interactively.
-o Install these dependencies using the requirements.txt provided.
+- Python 3.x
+- pandas: For data manipulation and loading the dataset.
+- pyfpgrowth: For mining frequent patterns using the FP-Growth algorithm.
+- Streamlit: For building the interactive web-based interface.
+- NetworkX: For creating the network graph of associations.
+- Plotly: For visualizing the network graph interactively.
+- Install these dependencies using the requirements.txt provided.
 
 # How It Works
 1. The application loads the dataset and allows you to adjust parameters for frequent pattern mining.
