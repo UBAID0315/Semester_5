@@ -60,12 +60,12 @@ o Rules for a Specific Item
 
 # File Structure
 
-- ├── streamlit_app.py      # Main Streamlit application
-- ├── requirements.txt      # List of required Python libraries
-- ├── data                  # Dataset file (place in root)
-- ├── README.md             # Project documentation
-- ├── code.ipynb
-- ├── __pycache__
+- streamlit_app.py      
+- requirements.txt      
+- data                  
+- README.md             
+- code.ipynb
+- __pycache__
 
 # Dependencies
 
