@@ -80,9 +80,9 @@ If you do not have a requirements.txt, create one with:
 1. The application loads the dataset and allows you to adjust parameters for frequent pattern mining.
 2. It generates frequent patterns using the FP-Growth algorithm and identifies association rules.
 3. You can explore:
-    0 Frequent Patterns: Itemsets that commonly appear together.
-    0 Association Rules: Relationships between items with a given confidence level.
-    0 Network Graph: A visual representation of food items and their associations.
+    - Frequent Patterns: Itemsets that commonly appear together.
+    - Association Rules: Relationships between items with a given confidence level.
+    - Network Graph: A visual representation of food items and their associations.
 
 # License
 This project is licensed under the MIT License. See the LICENSE file for more details.
