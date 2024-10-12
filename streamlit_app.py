@@ -26,7 +26,7 @@ st.markdown("""
 
 @st.cache_data
 def load_data():
-    food_items = pd.read_csv("1662574418893344.csv")
+    food_items = pd.read_csv("data/1662574418893344.csv")
     return food_items
 
 @st.cache_data
