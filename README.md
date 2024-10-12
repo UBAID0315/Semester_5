@@ -1,8 +1,8 @@
-# Food Association Analysis
+# **Food Association Analysis**
 
 This project is an interactive data exploration tool built using **Streamlit** for discovering frequent itemsets (patterns) and association rules from a food dataset. It uses the **FP-Growth** algorithm for pattern mining and **NetworkX** with **Plotly** for visualizing food item associations as a network graph.
 
-## Table of Contents
+## **Table of Contents**
 
 - [Features](#features)
 - [Installation](#installation)
@@ -15,7 +15,7 @@ This project is an interactive data exploration tool built using **Streamlit** f
 - [How It Works](#how-it-works)
 - [License](#license)
 
-## Features
+## **Features**
 
 - **Frequent Pattern Mining**: Identify frequent food itemsets using the FP-Growth algorithm.
 - **Association Rules**: Generate rules based on the relationships between food items.
@@ -23,10 +23,9 @@ This project is an interactive data exploration tool built using **Streamlit** f
 - **Network Graph Visualization**: Display food item associations as an interactive network graph.
 - **Adjustable Parameters**: Control sample size, minimum support, confidence, and top frequent patterns through the sidebar.
 
-## Installation
+## **Installation**
 
-
-1. **Install Dependencies: Install the required packages by running**:
+**Install Dependencies: Install the required packages by running**:
     ```pip install -r requirements.txt```
 
     If you do not have a requirements.txt, create one with:
@@ -38,9 +37,9 @@ This project is an interactive data exploration tool built using **Streamlit** f
 
 **Choose between the sections for:**
 
-o Viewing Frequent Itemsets (Patterns)
-o Viewing Association Rules
-o Rules for a Specific Item
+- Viewing Frequent Itemsets (Patterns)
+- Viewing Association Rules
+- Rules for a Specific Item
 
 # Dataset
 ```The dataset must be in CSV format, with a column named Describe that contains lists of food items separated by commas.```
