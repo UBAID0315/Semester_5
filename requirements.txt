@@ -1,0 +1,5 @@
+networkx==3.2.1
+pandas==2.2.3
+plotly==5.22.0
+pyfpgrowth==1.0
+streamlit==1.32.0
