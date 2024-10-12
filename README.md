@@ -28,12 +28,12 @@ This project is an interactive data exploration tool built using **Streamlit** f
 **Install Dependencies: Install the required packages by running**:
     ```pip install -r requirements.txt```
 
-    If you do not have a requirements.txt, create one with:
-    pandas
-    pyfpgrowth
-    streamlit
-    networkx
-    plotly
+If you do not have a requirements.txt, create one with:
+- pandas
+- pyfpgrowth
+- streamlit
+- networkx
+- plotly
 
 **Choose between the sections for:**
 
